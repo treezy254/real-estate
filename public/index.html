@@ -1,31 +1,298 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
-
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.7.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.7.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.7.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <link rel="stylesheet" type="text/css" href="home.css">
-  </head>
-  <body>
-    <div id="__nuxt"><div><img src="/tre.gif" alt="tre.gif" width="1px" height="1px" class="h-hide-image"><div><header><div class="main-container"><div class="navbar flex justify-between align-center"><a aria-current="page" href="/" class="router-link-active router-link-exact-active navbar__logo flex align-center"><svg class="icons" width="120px" height="40px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#logo-hor"></use></svg></a><nav class="navbar__nav flex items-center"><!--[--><div class="navbar__item"><span class="navbar__nav-link h-pointer">FOR RENT</span><div style="display: none;" class="navbar__item--dropdown"><!--[--><a href="/new-builds" class="items-center"><!----><span>New Builds</span></a><a href="/houses-apartments-for-rent" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#home1"></use></svg><span>Houses &amp; Apartments  </span></a><a href="/temporary-and-vacation-rentals" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#hotel1"></use></svg><span>Short Let</span></a><a href="/land-and-plots-for-rent" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#landscape1"></use></svg><span>Land &amp; Plots  </span></a><a href="/event-centers-and-venues" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#festival1"></use></svg><span>Event Centres, Venues &amp; Workstations</span></a><a href="/commercial-property-for-rent" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#storefront1"></use></svg><span>Commercial Property  </span></a><!--]--></div></div><div class="navbar__item"><span class="navbar__nav-link h-pointer">FOR SALE</span><div style="display: none;" class="navbar__item--dropdown slide-top-fade-enter-to"><!--[--><a href="/houses-apartments-for-sale" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#home1"></use></svg><span>Houses &amp; Apartments  </span></a><a href="/land-and-plots-for-sale" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#landscape1"></use></svg><span>Land &amp; Plots  </span></a><a href="/commercial-properties" class="items-center"><svg class="icons" width="24px" height="24px" color="#0B57D0"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#storefront1"></use></svg><span>Commercial Property  </span></a><!--]--></div></div><!--]--><div rel="nofollow" class="navbar__link flex items-center"><svg class="icons" width="12" height="12"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#plus"></use></svg> list my property </div></nav></div></div></header><!--[--><div><section class="hero"><div class="flex section-container hero__container items-center"><div class="hero__title"><p>Only verified property.</p><p>Dream it, we have it!</p></div><form class="hero__form"><div class="h-pos-rel h-mb-16"><label class="flex items-center form-dropdown"><svg class="icons h-mr-16" width="24px" height="24px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#home2"></use></svg> Choose Category <svg class="icons form-dropdown__arrow" width="18px" height="18px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#arrow"></use></svg></label><div name="slide-top-fade"><div style="z-index:8;" class="fw-popper fw-over-fixed-background"><!----></div></div></div><div class="h-pos-rel h-mb-16"><label class="flex items-center form-dropdown"><svg class="icons h-mr-16" width="24px" height="24px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#location1"></use></svg> Choose Region <svg class="icons form-dropdown__arrow" width="18px" height="18px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#arrow"></use></svg></label><div><div style="z-index:8;" class="fw-popper"><!----></div><!----></div></div><div class="flex justify-between hero__form__price"><input type="number" placeholder="Min price" min="0"><input type="number" placeholder="Max price" min="0"></div><div class="hero__form__submit"><button class="b-submit-disabled flex items-center justify-center" disabled=""><svg class="icons h-mr-8" width="24px" height="24px"><!----><!----><use href="/_nuxt/icons.kGQPqC5m.svg#search"></use></svg> Find reliable property </button></div></form></div></section><section class="section-container"><div class="products grid"><!--[--><a href="/nairobi/land-and-plots-for-rent" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 3072w"></picture><p class="products__content">Rental offers in Nairobi</p></a><a href="/mombasa/houses-apartments-for-rent" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 3072w"></picture><p class="products__content">Apartments for rent in Mombasa</p></a><a href="/houses-apartments-for-sale" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Houses_for_sale.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 3072w"></picture><p class="products__content">Houses for sale</p></a><a href="/temporary-and-vacation-rentals" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Short_let_homes.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Short_let_homes.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Short_let_homes.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Short_let_homes.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Short_let_homes.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Short_let_homes.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Short_let_homes.webp 3072w"></picture><p class="products__content">Short let homes</p></a><a href="/land-and-plots-for-sale?price_max=350000" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 3072w"></picture><p class="products__content">Lands &amp; Plots under 350k</p></a><!--]--><div class="products__description"><p class="products__description__title">About Hata</p><p class="products__description__content"> Tired of the challenges and risks involved in sourcing for real estate? That’s why we strictly verify sellers and landlords to ensure reliable property deals for you. Trust us to find you your dream property, at the best price, just in time. With Hata, your safety is assured. </p></div><!--[--><a href="/commercial-property-for-rent" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 3072w"></picture><p class="products__content">Commercial properties for rent</p></a><a href="/houses-apartments-for-sale?filter_attr_1382_furnishing=Furnished" class="products__item"><picture><!--[--><source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 3072w"><!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 3072w"></picture><p class="products__content">Ready-to-move-in homes</p></a><!--]--></div></section><section class="section-container remove-container h-pb-24"><!----></section><section class="section-container"><!----></section></div><!--]--><footer class="footer"><div class="flex wrap section-container"><div class="footer__item"><p class="footer__item__title">About us</p><ul><li><a href="/privacy" class="flex items-center"> Privacy Policy </a></li></ul></div><div class="footer__item"><p class="footer__item__title">Support</p><ul><li><a href="mailto:support@hata.co.ke" class="flex items-center">support@hata.co.ke</a></li></ul></div><div class="footer__item"><p class="footer__item__title">Our resources</p><ul><li><a href="https://www.facebook.com/hata.co.ke" target="_blank" rel="nofollow" class="flex items-center"> Our FB </a></li><li><a href="https://www.instagram.com/hata.kenya/" target="_blank" rel="nofollow" class="flex items-center"> Our Instagram </a></li><li><a href="https://twitter.com/hata_co_ke" target="_blank" rel="nofollow" class="flex items-center"> Our Twitter </a></li></ul></div></div><div class="footer__group-countries"><!--[--><a href="https://hata.ng" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Nigeria" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/nigeria.svg 1x, /_ipx/s_64x64/footer-anchors/nigeria.svg 2x" src="/_ipx/s_32x32/footer-anchors/nigeria.svg"></a><a href="https://hata.ug" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Uganda" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/uganda.svg 1x, /_ipx/s_64x64/footer-anchors/uganda.svg 2x" src="/_ipx/s_32x32/footer-anchors/uganda.svg"></a><a href="https://hata.com.gh" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Ghana" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/ghana.svg 1x, /_ipx/s_64x64/footer-anchors/ghana.svg 2x" src="/_ipx/s_32x32/footer-anchors/ghana.svg"></a><a href="https://hata.co.tz" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Tanzania" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/tanzania.svg 1x, /_ipx/s_64x64/footer-anchors/tanzania.svg 2x" src="/_ipx/s_32x32/footer-anchors/tanzania.svg"></a><!--]--></div><div class="footer__copyright"> © 2026 Hata Kenya</div></footer><div style="display:none;" class="fw-fixed-background"></div></div><div id="popup"></div><div id="popup-region"></div><div id="popup-mobile-select"></div></div></div>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Welcome to Firebase Hosting</title>
+      <!-- update the version number as needed -->
+      <script defer src="/__/firebase/12.7.0/firebase-app-compat.js"></script>
+      <!-- include only the Firebase features as you need -->
+      <script defer src="/__/firebase/12.7.0/firebase-auth-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-database-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-firestore-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-functions-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-messaging-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-storage-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-analytics-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-remote-config-compat.js"></script>
+      <script defer src="/__/firebase/12.7.0/firebase-performance-compat.js"></script>
+      <!-- 
+         initialize the SDK after all desired features are loaded, set useEmulator to false
+         to avoid connecting the SDK to running emulators.
+         -->
+      <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+      <link rel="stylesheet" type="text/css" href="home.css">
+   </head>
+   <body>
+      <div id="__nuxt">
+         <div>
+            <img src="/tre.gif" alt="tre.gif" width="1px" height="1px" class="h-hide-image">
+            <div>
+               <header>
+                  <div class="main-container">
+                     <div class="navbar flex justify-between align-center">
+                        <a aria-current="page" href="/" class="router-link-active router-link-exact-active navbar__logo flex align-center">
+                           <svg class="icons" width="120px" height="40px">
+                              <!----><!---->
+                              <use href="/_nuxt/icons.kGQPqC5m.svg#logo-hor"></use>
+                           </svg>
+                        </a>
+                        <nav class="navbar__nav flex items-center">
+                           <!--[-->
+                           <div class="navbar__item">
+                              <span class="navbar__nav-link h-pointer">FOR RENT</span>
+                              <div style="display: none;" class="navbar__item--dropdown">
+                                 <!--[-->
+                                 <a href="/new-builds" class="items-center">
+                                    <!----><span>New Builds</span>
+                                 </a>
+                                 <a href="/houses-apartments-for-rent" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#home1"></use>
+                                    </svg>
+                                    <span>Houses &amp; Apartments  </span>
+                                 </a>
+                                 <a href="/temporary-and-vacation-rentals" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#hotel1"></use>
+                                    </svg>
+                                    <span>Short Let</span>
+                                 </a>
+                                 <a href="/land-and-plots-for-rent" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#landscape1"></use>
+                                    </svg>
+                                    <span>Land &amp; Plots  </span>
+                                 </a>
+                                 <a href="/event-centers-and-venues" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#festival1"></use>
+                                    </svg>
+                                    <span>Event Centres, Venues &amp; Workstations</span>
+                                 </a>
+                                 <a href="/commercial-property-for-rent" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#storefront1"></use>
+                                    </svg>
+                                    <span>Commercial Property  </span>
+                                 </a>
+                                 <!--]-->
+                              </div>
+                           </div>
+                           <div class="navbar__item">
+                              <span class="navbar__nav-link h-pointer">FOR SALE</span>
+                              <div style="display: none;" class="navbar__item--dropdown slide-top-fade-enter-to">
+                                 <!--[-->
+                                 <a href="/houses-apartments-for-sale" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#home1"></use>
+                                    </svg>
+                                    <span>Houses &amp; Apartments  </span>
+                                 </a>
+                                 <a href="/land-and-plots-for-sale" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#landscape1"></use>
+                                    </svg>
+                                    <span>Land &amp; Plots  </span>
+                                 </a>
+                                 <a href="/commercial-properties" class="items-center">
+                                    <svg class="icons" width="24px" height="24px" color="#0B57D0">
+                                       <!----><!---->
+                                       <use href="/_nuxt/icons.kGQPqC5m.svg#storefront1"></use>
+                                    </svg>
+                                    <span>Commercial Property  </span>
+                                 </a>
+                                 <!--]-->
+                              </div>
+                           </div>
+                           <!--]-->
+                           <div rel="nofollow" class="navbar__link flex items-center">
+                              <svg class="icons" width="12" height="12">
+                                 <!----><!---->
+                                 <use href="/_nuxt/icons.kGQPqC5m.svg#plus"></use>
+                              </svg>
+                              list my property 
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </header>
+               <!--[-->
+               <div>
+                  <section class="hero">
+                     <div class="flex section-container hero__container items-center">
+                        <div class="hero__title">
+                           <p>Only verified property.</p>
+                           <p>Dream it, we have it!</p>
+                        </div>
+                        <form class="hero__form">
+                           <div class="h-pos-rel h-mb-16">
+                              <label class="flex items-center form-dropdown">
+                                 <svg class="icons h-mr-16" width="24px" height="24px">
+                                    <!----><!---->
+                                    <use href="/_nuxt/icons.kGQPqC5m.svg#home2"></use>
+                                 </svg>
+                                 Choose Category 
+                                 <svg class="icons form-dropdown__arrow" width="18px" height="18px">
+                                    <!----><!---->
+                                    <use href="/_nuxt/icons.kGQPqC5m.svg#arrow"></use>
+                                 </svg>
+                              </label>
+                              <div name="slide-top-fade">
+                                 <div style="z-index:8;" class="fw-popper fw-over-fixed-background">
+                                    <!---->
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="h-pos-rel h-mb-16">
+                              <label class="flex items-center form-dropdown">
+                                 <svg class="icons h-mr-16" width="24px" height="24px">
+                                    <!----><!---->
+                                    <use href="/_nuxt/icons.kGQPqC5m.svg#location1"></use>
+                                 </svg>
+                                 Choose Region 
+                                 <svg class="icons form-dropdown__arrow" width="18px" height="18px">
+                                    <!----><!---->
+                                    <use href="/_nuxt/icons.kGQPqC5m.svg#arrow"></use>
+                                 </svg>
+                              </label>
+                              <div>
+                                 <div style="z-index:8;" class="fw-popper">
+                                    <!---->
+                                 </div>
+                                 <!---->
+                              </div>
+                           </div>
+                           <div class="flex justify-between hero__form__price"><input type="number" placeholder="Min price" min="0"><input type="number" placeholder="Max price" min="0"></div>
+                           <div class="hero__form__submit">
+                              <button class="b-submit-disabled flex items-center justify-center" disabled="">
+                                 <svg class="icons h-mr-8" width="24px" height="24px">
+                                    <!----><!---->
+                                    <use href="/_nuxt/icons.kGQPqC5m.svg#search"></use>
+                                 </svg>
+                                 Find reliable property 
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </section>
+                  <section class="section-container">
+                     <div class="products grid">
+                        <!--[-->
+                        <a href="/nairobi/land-and-plots-for-rent" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Rental_offers_in_Nairobi.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Rental_offers_in_Nairobi.webp 3072w">
+                           </picture>
+                           <p class="products__content">Rental offers in Nairobi</p>
+                        </a>
+                        <a href="/mombasa/houses-apartments-for-rent" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Apartments_for_rent_in_Mombasa.webp 3072w">
+                           </picture>
+                           <p class="products__content">Apartments for rent in Mombasa</p>
+                        </a>
+                        <a href="/houses-apartments-for-sale" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Houses_for_sale.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Houses_for_sale.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Houses_for_sale.webp 3072w">
+                           </picture>
+                           <p class="products__content">Houses for sale</p>
+                        </a>
+                        <a href="/temporary-and-vacation-rentals" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Short_let_homes.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Short_let_homes.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Short_let_homes.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Short_let_homes.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Short_let_homes.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Short_let_homes.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Short_let_homes.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Short_let_homes.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Short_let_homes.webp 3072w">
+                           </picture>
+                           <p class="products__content">Short let homes</p>
+                        </a>
+                        <a href="/land-and-plots-for-sale?price_max=350000" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Lands_Plots_under_350k.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Lands_Plots_under_350k.webp 3072w">
+                           </picture>
+                           <p class="products__content">Lands &amp; Plots under 350k</p>
+                        </a>
+                        <!--]-->
+                        <div class="products__description">
+                           <p class="products__description__title">About Hata</p>
+                           <p class="products__description__content"> Tired of the challenges and risks involved in sourcing for real estate? That’s why we strictly verify sellers and landlords to ensure reliable property deals for you. Trust us to find you your dream property, at the best price, just in time. With Hata, your safety is assured. </p>
+                        </div>
+                        <!--[-->
+                        <a href="/commercial-property-for-rent" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Commercial_properties_for_rent.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Commercial_properties_for_rent.webp 3072w">
+                           </picture>
+                           <p class="products__content">Commercial properties for rent</p>
+                        </a>
+                        <a href="/houses-apartments-for-sale?filter_attr_1382_furnishing=Furnished" class="products__item">
+                           <picture>
+                              <!--[-->
+                              <source type="image/webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 320w, /_ipx/w_640&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 640w, /_ipx/w_768&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 768w, /_ipx/w_1024&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1024w, /_ipx/w_1280&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1280w, /_ipx/w_1536&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 1536w, /_ipx/w_2048&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 2048w, /_ipx/w_2560&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 2560w, /_ipx/w_3072&amp;f_webp/popular_categories/kenya/Ready-to-move-in_homes.webp 3072w">
+                              <!--]--><img onerror="this.setAttribute('data-error', 1)" data-nuxt-pic="" src="/_ipx/w_3072&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp" sizes="(max-width: 640px) 320px, (max-width: 768px) 640px, (max-width: 1024px) 768px, (max-width: 1280px) 1024px, (max-width: 1536px) 1280px, 1536px" srcset="/_ipx/w_320&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 320w, /_ipx/w_640&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 640w, /_ipx/w_768&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 768w, /_ipx/w_1024&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1024w, /_ipx/w_1280&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1280w, /_ipx/w_1536&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 1536w, /_ipx/w_2048&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 2048w, /_ipx/w_2560&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 2560w, /_ipx/w_3072&amp;f_png/popular_categories/kenya/Ready-to-move-in_homes.webp 3072w">
+                           </picture>
+                           <p class="products__content">Ready-to-move-in homes</p>
+                        </a>
+                        <!--]-->
+                     </div>
+                  </section>
+                  <section class="section-container remove-container h-pb-24">
+                     <!---->
+                  </section>
+                  <section class="section-container">
+                     <!---->
+                  </section>
+               </div>
+               <!--]-->
+               <footer class="footer">
+                  <div class="flex wrap section-container">
+                     <div class="footer__item">
+                        <p class="footer__item__title">About us</p>
+                        <ul>
+                           <li><a href="/privacy" class="flex items-center"> Privacy Policy </a></li>
+                        </ul>
+                     </div>
+                     <div class="footer__item">
+                        <p class="footer__item__title">Support</p>
+                        <ul>
+                           <li><a href="mailto:support@hata.co.ke" class="flex items-center">support@hata.co.ke</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer__item">
+                        <p class="footer__item__title">Our resources</p>
+                        <ul>
+                           <li><a href="https://www.facebook.com/hata.co.ke" target="_blank" rel="nofollow" class="flex items-center"> Our FB </a></li>
+                           <li><a href="https://www.instagram.com/hata.kenya/" target="_blank" rel="nofollow" class="flex items-center"> Our Instagram </a></li>
+                           <li><a href="https://twitter.com/hata_co_ke" target="_blank" rel="nofollow" class="flex items-center"> Our Twitter </a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="footer__group-countries">
+                     <!--[--><a href="https://hata.ng" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Nigeria" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/nigeria.svg 1x, /_ipx/s_64x64/footer-anchors/nigeria.svg 2x" src="/_ipx/s_32x32/footer-anchors/nigeria.svg"></a><a href="https://hata.ug" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Uganda" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/uganda.svg 1x, /_ipx/s_64x64/footer-anchors/uganda.svg 2x" src="/_ipx/s_32x32/footer-anchors/uganda.svg"></a><a href="https://hata.com.gh" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Ghana" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/ghana.svg 1x, /_ipx/s_64x64/footer-anchors/ghana.svg 2x" src="/_ipx/s_32x32/footer-anchors/ghana.svg"></a><a href="https://hata.co.tz" target="_blank" rel="nofollow" class="footer__group-countries__item"><img onerror="this.setAttribute('data-error', 1)" width="32" height="32" alt="Tanzania" data-nuxt-img="" srcset="/_ipx/s_32x32/footer-anchors/tanzania.svg 1x, /_ipx/s_64x64/footer-anchors/tanzania.svg 2x" src="/_ipx/s_32x32/footer-anchors/tanzania.svg"></a><!--]-->
+                  </div>
+                  <div class="footer__copyright"> © 2026 Hata Kenya</div>
+               </footer>
+               <div style="display:none;" class="fw-fixed-background"></div>
+            </div>
+            <div id="popup"></div>
+            <div id="popup-region"></div>
+            <div id="popup-mobile-select"></div>
+         </div>
+      </div>
+   </body>
 </html>
